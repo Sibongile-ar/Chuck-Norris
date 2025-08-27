@@ -1,0 +1,48 @@
+body {
+  color: white;
+  font-family: "Berkshire Swash", cursive;
+}
+
+button {
+  background-color: pink;
+  border-radius: 25px;
+}
+
+button:hover {
+  background-color: rgb(243, 171, 171);
+  cursor: pointer;
+}
+
+img {
+  max-width: 150px;
+  border: 3px dotted rgb(32, 239, 35);
+}
+
+select {
+  margin-bottom: 5px;
+}
+
+#container {
+  width: 300px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 25px;
+  background: url("https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTEwL3Jhd3BpeGVsb2ZmaWNlMjFfZ2lmdF93cmFwcGluZ19yaWJib25fZm9yX3ByZXNlbnRfc3Rhcl9taW5pbWFsX183ZWY3NThjNy03Yjc1LTQzMjEtOWJiNC1iYTlhNzcxNGMxNmZfMS5qcGc.jpg");
+  background-repeat: no-repeat;
+  box-shadow: 10px 10px 10px rgba(242, 164, 246, 0.5);
+}
+
+#title,
+label {
+  text-shadow: -1px -1px 3px rgb(242, 47, 239), 1px 2px 1px black;
+  padding: 5px;
+  width: 100%;
+}
+
+#display-joke {
+  background: rgba(0, 0, 0, 0.8);
+  background-color: rgb(216, 206, 244);
+  color: rgb(235, 128, 251);
+  text-shadow: 1px 1px 1px rgba(9, 3, 3, 0.9);
+  padding: 25px;
+}

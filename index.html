@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+    <title>Chuck Norris Well Wishes card</title>
+  </head>
+  <body>
+    <div id="container">
+      <label for="category"> Select your category</label>
+      <select name="category" id="category" disabled>
+        <!-- 	<option value="1" selected>1</option> -->
+      </select>
+
+      <button onclick="fetchJoke()">Get a new category joke! 💘</button>
+      <h3 id="title">Well Wishing you nice Monday!</h3>
+      <div class="card">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Chuck_Norris%2C_The_Delta_Force_1986.jpg/330px-Chuck_Norris%2C_The_Delta_Force_1986.jpg"
+          alt="Avatar"
+          style="width: 100%"
+        />
+      </div>
+      <p id="display-joke">
+        A Chuck Norris movie will touch your heart. Then it will rip it out of
+        your chest!
+      </p>
+    </div>
+    <!-- container -->
+  </body>
+</html>
