@@ -12,29 +12,34 @@
     />
     <link rel="stylesheet" href="style.css" />
     <script src="index.js" defer></script>
-    <title>Chuck Norris Well Wishes card</title>
+    <title>Chuck Norris Well Wishes Card</title>
   </head>
   <body>
-    <div id="container">
-      <label for="category"> Select your category</label>
-      <select name="category" id="category" disabled>
-        <!-- 	<option value="1" selected>1</option> -->
-      </select>
+    <h1>Welcome back <span id="user-name">Sibongile</span></h1>
 
-      <button onclick="fetchJoke()">Get a new category joke! 💘</button>
+    <div id="container">
+      <label for="category">Select your category</label>
+      <select name="category" id="category" disabled></select>
+
+      <button id="fetch-joke">Get a new category joke! 💘</button>
+
       <h3 id="title">Well Wishing you nice Monday!</h3>
+
       <div class="card">
         <img
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Chuck_Norris%2C_The_Delta_Force_1986.jpg/330px-Chuck_Norris%2C_The_Delta_Force_1986.jpg"
-          alt="Avatar"
-          style="width: 100%"
+          src="https://media.cnn.com/api/v1/images/stellar/prod/120104060743-chuck-norris-gop-support.jpg?q=x_0,y_68,h_1141,w_2028,c_crop/h_833,w_1480"
+          alt="Chuck Norris"
+          class="chuck-img"
         />
       </div>
+
       <p id="display-joke">
         A Chuck Norris movie will touch your heart. Then it will rip it out of
         your chest!
       </p>
+      <div class="logout-container">
+        <button id="logout" onclick="handleLogout()">Logout</button>
+      </div>
     </div>
-    <!-- container -->
   </body>
 </html>

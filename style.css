@@ -1,48 +1,84 @@
 body {
-  color: white;
-  font-family: "Berkshire Swash", cursive;
+  color: #333;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(#a1b5d1, #8dcfd5);
+  margin: 0;
+  padding: 0;
+}
+/* Container styling */
+#container {
+  width: 320px;
+  text-align: center;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 20px;
+  background: rgba(130, 118, 176, 0.85);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(8px);
+  border: 2px solid #816d9b;
 }
 
+/* Title and labels */
+#title,
+label {
+  font-family: "Berkshire Swash", cursive;
+  font-size: 1.5em;
+  color: #272224;
+  text-shadow: 1px 1px rgb(238, 152, 152);
+  margin-bottom: 10px;
+  display: block;
+}
+
+/* Buttons */
 button {
-  background-color: pink;
-  border-radius: 25px;
+  background-color: #a1b3f3;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 30px;
+  font-size: 1em;
+  transition: all 0.3s ease;
 }
 
 button:hover {
-  background-color: rgb(243, 171, 171);
+  background-color: #ff1493;
   cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(147, 196, 124, 0.4);
 }
 
+/* Image styling */
 img {
-  max-width: 150px;
-  border: 3px dotted rgb(32, 239, 35);
+  height: 200px;
+  max-width: 200px;
+  border: 2px solid #e587d2;
+  border-radius: 5px;
 }
 
+/* Select dropdown */
 select {
-  margin-bottom: 5px;
-}
-
-#container {
-  width: 300px;
-  text-align: center;
-  margin: 0 auto;
-  padding: 25px;
-  background: url("https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTEwL3Jhd3BpeGVsb2ZmaWNlMjFfZ2lmdF93cmFwcGluZ19yaWJib25fZm9yX3ByZXNlbnRfc3Rhcl9taW5pbWFsX183ZWY3NThjNy03Yjc1LTQzMjEtOWJiNC1iYTlhNzcxNGMxNmZfMS5qcGc.jpg");
-  background-repeat: no-repeat;
-  box-shadow: 10px 10px 10px rgba(242, 164, 246, 0.5);
-}
-
-#title,
-label {
-  text-shadow: -1px -1px 3px rgb(242, 47, 239), 1px 2px 1px black;
-  padding: 5px;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+  margin-bottom: 15px;
   width: 100%;
 }
 
+/* Joke display area */
 #display-joke {
-  background: rgba(0, 0, 0, 0.8);
-  background-color: rgb(216, 206, 244);
-  color: rgb(235, 128, 251);
-  text-shadow: 1px 1px 1px rgba(9, 3, 3, 0.9);
-  padding: 25px;
+  background: #fff0f5;
+  color: #333;
+  text-shadow: none;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  border: 2px dashed #ff69b4;
+  font-size: 1.1em;
+}
+
+h1 {
+  color: #de09c6;
+  text-align: center;
 }
