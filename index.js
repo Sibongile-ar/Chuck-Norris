@@ -1,4 +1,7 @@
 console.clear();
+if (!localStorage.getItem("loggedIn")) {
+  window.location.href="http://127.0.0.1:5500/login.html"
+}
 
 const displayJoke = document.getElementById("display-joke");
 const category = document.getElementById("category");
